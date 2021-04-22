@@ -1,0 +1,23 @@
+{
+    "name": "informatutos/synext",
+    "description": "simple fast php home framework :) !",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Ambroise Hound",
+        "email": "ambroisehound@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.4.5",
+        "altorouter/altorouter": "^2.0",
+        "vlucas/valitron": "^1.4",
+        "swiftmailer/swiftmailer": "^6.0",
+        "symfony/var-dumper": "^5.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Synext\\": "core/"
+        }
+    }
+}
